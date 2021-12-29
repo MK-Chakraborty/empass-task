@@ -1,38 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+
 .App {
   text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.headNav {
+  font-size: 20px;
+  font-weight: 600;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.testTable {
+  background-color: #e3e3e3;
+  font-size: 20px;
+  font-weight: 600;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.boxTitle,
+.sumrTitle {
+  font-size: 18px;
+  font-weight: 600;
+  border-bottom: 3px solid #34c646;
 }
 
-.App-link {
-  color: #61dafb;
+.interestCodeBox {
+  border: 6px solid #34c646;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.boxTitle {
+  border-bottom: 0;
+}
+
+.instCode {
+  background-color: #ff9900;
+  font-size: 18px;
+}
+
+.instaValue {
+  font-size: 25px;
+  background-color: #34c646;
+}
+
+.instTitle {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.instText {
+  font-size: 16px;
+  color: #000;
 }
